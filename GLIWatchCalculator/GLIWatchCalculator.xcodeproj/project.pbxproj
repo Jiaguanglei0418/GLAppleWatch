@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		929522FE1C7722C5007583B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 929522FD1C7722C5007583B3 /* main.m */; };
+		929523011C7722C5007583B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 929523001C7722C5007583B3 /* AppDelegate.m */; };
+		929523041C7722C5007583B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929523031C7722C5007583B3 /* ViewController.m */; };
+		929523071C7722C5007583B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929523051C7722C5007583B3 /* Main.storyboard */; };
+		929523091C7722C5007583B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929523081C7722C5007583B3 /* Assets.xcassets */; };
+		9295230C1C7722C5007583B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9295230A1C7722C5007583B3 /* LaunchScreen.storyboard */; };
+		9295231D1C7722DA007583B3 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9295231C1C7722DA007583B3 /* InterfaceController.m */; };
+		929523201C7722DA007583B3 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9295231F1C7722DA007583B3 /* NotificationController.m */; };
+		929523221C7722DA007583B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929523211C7722DA007583B3 /* Assets.xcassets */; };
+		929523271C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 App.app in Resources */ = {isa = PBXBuildFile; fileRef = 929523261C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 App.app */; };
+		9295232D1C7722DA007583B3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9295232B1C7722DA007583B3 /* Interface.storyboard */; };
+		9295232F1C7722DA007583B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9295232E1C7722DA007583B3 /* Assets.xcassets */; };
+		929523331C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 929523171C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		929523281C7722DA007583B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 929522F11C7722C5007583B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 929523251C7722DA007583B3;
+			remoteInfo = "GLIWatchCalculator WatchKit 1 App";
+		};
+		929523311C7722DA007583B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 929522F11C7722C5007583B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 929523161C7722DA007583B3;
+			remoteInfo = "GLIWatchCalculator WatchKit 1 Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9295233A1C7722DA007583B3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				929523331C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		929522F91C7722C5007583B3 /* GLIWatchCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLIWatchCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		929522FD1C7722C5007583B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		929522FF1C7722C5007583B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		929523001C7722C5007583B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		929523021C7722C5007583B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		929523031C7722C5007583B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		929523061C7722C5007583B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		929523081C7722C5007583B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9295230B1C7722C5007583B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9295230D1C7722C5007583B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929523171C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GLIWatchCalculator WatchKit 1 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9295231A1C7722DA007583B3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		9295231B1C7722DA007583B3 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		9295231C1C7722DA007583B3 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		9295231E1C7722DA007583B3 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		9295231F1C7722DA007583B3 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		929523211C7722DA007583B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		929523231C7722DA007583B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929523261C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GLIWatchCalculator WatchKit 1 App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9295232C1C7722DA007583B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9295232E1C7722DA007583B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		929523301C7722DA007583B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		929522F61C7722C5007583B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929523141C7722DA007583B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		929522F01C7722C5007583B3 = {
+			isa = PBXGroup;
+			children = (
+				929522FB1C7722C5007583B3 /* GLIWatchCalculator */,
+				929523181C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 Extension */,
+				9295232A1C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 App */,
+				929522FA1C7722C5007583B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		929522FA1C7722C5007583B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				929522F91C7722C5007583B3 /* GLIWatchCalculator.app */,
+				929523171C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 Extension.appex */,
+				929523261C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		929522FB1C7722C5007583B3 /* GLIWatchCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				929522FF1C7722C5007583B3 /* AppDelegate.h */,
+				929523001C7722C5007583B3 /* AppDelegate.m */,
+				929523021C7722C5007583B3 /* ViewController.h */,
+				929523031C7722C5007583B3 /* ViewController.m */,
+				929523051C7722C5007583B3 /* Main.storyboard */,
+				929523081C7722C5007583B3 /* Assets.xcassets */,
+				9295230A1C7722C5007583B3 /* LaunchScreen.storyboard */,
+				9295230D1C7722C5007583B3 /* Info.plist */,
+				929522FC1C7722C5007583B3 /* Supporting Files */,
+			);
+			path = GLIWatchCalculator;
+			sourceTree = "<group>";
+		};
+		929522FC1C7722C5007583B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				929522FD1C7722C5007583B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		929523181C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9295231B1C7722DA007583B3 /* InterfaceController.h */,
+				9295231C1C7722DA007583B3 /* InterfaceController.m */,
+				9295231E1C7722DA007583B3 /* NotificationController.h */,
+				9295231F1C7722DA007583B3 /* NotificationController.m */,
+				929523211C7722DA007583B3 /* Assets.xcassets */,
+				929523231C7722DA007583B3 /* Info.plist */,
+				929523191C7722DA007583B3 /* Supporting Files */,
+			);
+			path = "GLIWatchCalculator WatchKit 1 Extension";
+			sourceTree = "<group>";
+		};
+		929523191C7722DA007583B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9295231A1C7722DA007583B3 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9295232A1C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 App */ = {
+			isa = PBXGroup;
+			children = (
+				9295232B1C7722DA007583B3 /* Interface.storyboard */,
+				9295232E1C7722DA007583B3 /* Assets.xcassets */,
+				929523301C7722DA007583B3 /* Info.plist */,
+			);
+			path = "GLIWatchCalculator WatchKit 1 App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		929522F81C7722C5007583B3 /* GLIWatchCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929523101C7722C5007583B3 /* Build configuration list for PBXNativeTarget "GLIWatchCalculator" */;
+			buildPhases = (
+				929522F51C7722C5007583B3 /* Sources */,
+				929522F61C7722C5007583B3 /* Frameworks */,
+				929522F71C7722C5007583B3 /* Resources */,
+				9295233A1C7722DA007583B3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929523321C7722DA007583B3 /* PBXTargetDependency */,
+			);
+			name = GLIWatchCalculator;
+			productName = GLIWatchCalculator;
+			productReference = 929522F91C7722C5007583B3 /* GLIWatchCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		929523161C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929523371C7722DA007583B3 /* Build configuration list for PBXNativeTarget "GLIWatchCalculator WatchKit 1 Extension" */;
+			buildPhases = (
+				929523131C7722DA007583B3 /* Sources */,
+				929523141C7722DA007583B3 /* Frameworks */,
+				929523151C7722DA007583B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929523291C7722DA007583B3 /* PBXTargetDependency */,
+			);
+			name = "GLIWatchCalculator WatchKit 1 Extension";
+			productName = "GLIWatchCalculator WatchKit 1 Extension";
+			productReference = 929523171C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		929523251C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929523341C7722DA007583B3 /* Build configuration list for PBXNativeTarget "GLIWatchCalculator WatchKit 1 App" */;
+			buildPhases = (
+				929523241C7722DA007583B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GLIWatchCalculator WatchKit 1 App";
+			productName = "GLIWatchCalculator WatchKit 1 App";
+			productReference = 929523261C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		929522F11C7722C5007583B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = roseonly;
+				TargetAttributes = {
+					929522F81C7722C5007583B3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					929523161C7722DA007583B3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					929523251C7722DA007583B3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 929522F41C7722C5007583B3 /* Build configuration list for PBXProject "GLIWatchCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 929522F01C7722C5007583B3;
+			productRefGroup = 929522FA1C7722C5007583B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				929522F81C7722C5007583B3 /* GLIWatchCalculator */,
+				929523161C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 Extension */,
+				929523251C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		929522F71C7722C5007583B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9295230C1C7722C5007583B3 /* LaunchScreen.storyboard in Resources */,
+				929523091C7722C5007583B3 /* Assets.xcassets in Resources */,
+				929523071C7722C5007583B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929523151C7722DA007583B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929523271C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 App.app in Resources */,
+				929523221C7722DA007583B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929523241C7722DA007583B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9295232F1C7722DA007583B3 /* Assets.xcassets in Resources */,
+				9295232D1C7722DA007583B3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		929522F51C7722C5007583B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929523041C7722C5007583B3 /* ViewController.m in Sources */,
+				929523011C7722C5007583B3 /* AppDelegate.m in Sources */,
+				929522FE1C7722C5007583B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929523131C7722DA007583B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929523201C7722DA007583B3 /* NotificationController.m in Sources */,
+				9295231D1C7722DA007583B3 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		929523291C7722DA007583B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 929523251C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 App */;
+			targetProxy = 929523281C7722DA007583B3 /* PBXContainerItemProxy */;
+		};
+		929523321C7722DA007583B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 929523161C7722DA007583B3 /* GLIWatchCalculator WatchKit 1 Extension */;
+			targetProxy = 929523311C7722DA007583B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		929523051C7722C5007583B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929523061C7722C5007583B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9295230A1C7722C5007583B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9295230B1C7722C5007583B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9295232B1C7722DA007583B3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9295232C1C7722DA007583B3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9295230E1C7722C5007583B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9295230F1C7722C5007583B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		929523111C7722C5007583B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GLIWatchCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RO.GLIWatchCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		929523121C7722C5007583B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GLIWatchCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RO.GLIWatchCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		929523351C7722DA007583B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = GLIWatchCalculator_WatchKit_1_Extension;
+				INFOPLIST_FILE = "GLIWatchCalculator WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RO.GLIWatchCalculator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		929523361C7722DA007583B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = GLIWatchCalculator_WatchKit_1_Extension;
+				INFOPLIST_FILE = "GLIWatchCalculator WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RO.GLIWatchCalculator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		929523381C7722DA007583B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GLIWatchCalculator WatchKit 1 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RO.GLIWatchCalculator.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		929523391C7722DA007583B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GLIWatchCalculator WatchKit 1 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RO.GLIWatchCalculator.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		929522F41C7722C5007583B3 /* Build configuration list for PBXProject "GLIWatchCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9295230E1C7722C5007583B3 /* Debug */,
+				9295230F1C7722C5007583B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929523101C7722C5007583B3 /* Build configuration list for PBXNativeTarget "GLIWatchCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929523111C7722C5007583B3 /* Debug */,
+				929523121C7722C5007583B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		929523341C7722DA007583B3 /* Build configuration list for PBXNativeTarget "GLIWatchCalculator WatchKit 1 App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929523351C7722DA007583B3 /* Debug */,
+				929523361C7722DA007583B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		929523371C7722DA007583B3 /* Build configuration list for PBXNativeTarget "GLIWatchCalculator WatchKit 1 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929523381C7722DA007583B3 /* Debug */,
+				929523391C7722DA007583B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 929522F11C7722C5007583B3 /* Project object */;
+}

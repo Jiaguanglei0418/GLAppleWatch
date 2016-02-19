@@ -21,6 +21,7 @@
 		929522B61C76E89A007583B3 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929522B51C76E89A007583B3 /* NotificationController.m */; };
 		929522B81C76E89A007583B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929522B71C76E89A007583B3 /* Assets.xcassets */; };
 		929522BC1C76E89A007583B3 /* watchExtention.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9295229B1C76E89A007583B3 /* watchExtention.app */; };
+		929522C71C76F747007583B3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929522C61C76F747007583B3 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,16 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		929522EF1C7713B5007583B3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +101,8 @@
 		929522B51C76E89A007583B3 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
 		929522B71C76E89A007583B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		929522B91C76E89A007583B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929522C51C76F747007583B3 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		929522C61C76F747007583B3 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +150,8 @@
 				929522861C76E74F007583B3 /* AppDelegate.m */,
 				929522881C76E74F007583B3 /* ViewController.h */,
 				929522891C76E74F007583B3 /* ViewController.m */,
+				929522C51C76F747007583B3 /* SecondViewController.h */,
+				929522C61C76F747007583B3 /* SecondViewController.m */,
 				9295228B1C76E74F007583B3 /* Main.storyboard */,
 				9295228E1C76E74F007583B3 /* Assets.xcassets */,
 				929522901C76E74F007583B3 /* LaunchScreen.storyboard */,
@@ -199,6 +214,7 @@
 				9295227C1C76E74F007583B3 /* Frameworks */,
 				9295227D1C76E74F007583B3 /* Resources */,
 				929522C41C76E89A007583B3 /* Embed Watch Content */,
+				929522EF1C7713B5007583B3 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -319,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929522C71C76F747007583B3 /* SecondViewController.m in Sources */,
 				9295228A1C76E74F007583B3 /* ViewController.m in Sources */,
 				929522871C76E74F007583B3 /* AppDelegate.m in Sources */,
 				929522841C76E74F007583B3 /* main.m in Sources */,
